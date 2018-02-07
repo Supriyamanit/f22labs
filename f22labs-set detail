@@ -1,0 +1,355 @@
+<html lang="en">
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <title>F22LABS-Set Detail</title>
+    <style type="text/css">
+               body{
+                       font: 12px verdana, sans-serif; 
+                           margin: 0px;
+                      }
+                 .container{
+                       width: 100%;
+                       margin: 0 auto; 
+                       background-color: #f0f0f0; 
+                       border:1px solid gray;
+                   }
+   .icon-bar {
+     float: left;
+    width: 135px;
+    background-color: #4F5053;
+    min-height: 1000px;
+    
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 18px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+.material-icons.md-18 { font-size: 18px; }
+ .iconbar1{
+     float: left;
+    width: 220px;
+    background-color: #555;
+   min-height:1000px ;
+    
+}
+
+.iconbar1 a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 18px;
+}
+
+.alignleft {
+	float: left;
+                    line-height:10%;
+                    padding-left:14px;
+}
+.alignright {
+	float: right;
+                     line-height:10%;
+                     
+}
+.img
+{
+  cellspacing:0px;
+  padding-bottom:0px;
+  display:block;
+  line-height:10%;
+}
+ .freespace
+{
+     padding-left:18px;
+}
+.header
+{
+    padding-left:24px;
+    padding-top:0px;
+    font-size:20px;
+    background-color:#EEEEF0;
+    float:left;
+    width:73.63%;
+    height:90px;
+    color:#000000;
+}
+.avatar {
+     padding-right:0px;
+     padding-top:0px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float:right;
+}
+.main
+{
+    width:73.63%;
+     height:300px;
+     float:left;
+     color:  #38EDC9;
+}
+ .main .btn {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #69696B;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.main .btn:hover {
+    background-color: black;
+}
+.menu
+{
+       width:73.63%;
+       height:32px;
+       background-color:#D8D8D9;
+       overflow: auto;
+}
+       .menu a {
+    float: left;
+    width: 5%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 24px;
+}
+
+.menu a:hover {
+    background-color: #000;
+}
+.btn1 {
+    border: none;
+      
+    background-color: inherit;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+.btn1:hover {background: #eee;}
+
+* {box-sizing: border-box;}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+.topnav input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 80%;
+    background: #ffffff;
+}
+.topnav button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: blue;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+.topnav button:hover {
+    background: #0b7dda;
+}
+.gallery {
+    margin: 22px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+.gallery:hover {
+    border: 1px solid #777;
+}
+.gallery img {
+    width: 100%;
+    height: 200;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    color:blue;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color:#38EDC9;
+}
+
+
+      </style>
+ </head>
+<body>
+          <div class="container">                                              
+                 
+                             <div class="icon-bar">
+                                           <a class="active" href="#"><i class="fa fa-send"></i>
+                                           </a> 
+                                           <a href="#"><i class="material-icons md-18">apps</i>
+                                            <p>Pictures</p>
+                                             </a> 
+                                            <a href="#"><i class="fa fa-bar-chart"></i> 
+                                             <p>Analytics</p>
+                                             </a>
+                                           <a href="#"><i class="material-icons md-18">layers</i>
+                                               <p>Insights</p>
+                                            </a>
+                                           <a href="#"><i class="fa fa-tasks"></i>
+                                               <p>Deadlines</p>
+                                            </a> 
+                              </div >
+                                <div class="iconbar1">
+                                  <a href="#">
+                                   <p>POPULAR IN STORE</p>
+                                   <p class="img"><img src="coffee.jpg" width="170px" height="80px"></p>
+                                    <p class="alignleft"><font size="2" >Coffee Pics </p>
+                                     <p class="alignright">$15</p>
+                                     </a>
+                                     <a href="#">
+                                      <p><img src="bridges.jpg" width="170px" height="80px"></p>
+                                    <p class="alignleft"><font size="2" >Bridges </p>
+                                     <p class="alignright">$5</p>
+                                     </a>
+                                     <a href="#">
+                                      <p><img src="world.jpg" width="170px" height="80px"></p>
+                                    <p class="alignleft"><font size="2" >World </p>
+                                     <p class="alignright">$8</p>
+                                     </a>
+                                     <br>
+                                    <hr class="alignleft" width="105" ></hr>
+                                    <a href="#">
+                                      <p class="alignleft"> <font size="2" color="yellow">POPULAR UPLOADERS</p>
+                                        </a>
+                                       <a href="#">
+                                       <p class="alignleft"> <font size="2" color="white" >Deathtostack</p>
+                                       </a>
+                                         <br>
+                                        <br><br><br><br><br><br><br>
+                                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                         <p class="freespace">75GB of 320GB FREE</p>
+                                         
+                                         <div class="w3-border">
+                                                      <div class="w3-aqua" style="height:2px;width:20%"></div>
+                                         </div>   
+                                  </div >
+                              
+                                  <div class="header">
+                                                       <p>Store
+                                                     <img src="round.jpg" alt="Avatar"class= "avatar " ></p>
+                                  </div>
+                               
+                                   <div class="main">
+                                          <img src="scene.jpeg" alt="Snow" height="300px" width="110%">
+                                         < button class="btn">Button</button>
+                                         
+                                    </div>
+                                      
+                                    <div class="menu">
+                                                  <a href="#"><i class="fa fa-th-large"></i>
+                                                    </a> 
+                                                    <a href="#"><i class="material-icons md-18">menu</i> 
+                                                    </a>
+                                                     <button class="btn1">All Projects</button>
+                                                         <button class="btn1">Synced Projects</button>
+                                                      <input type="text" placeholder="Search.." name="search1" class="topnav">
+                                                       <button type="submit"><i class="fa fa-search"></i></button>
+                                                    </div>               
+                                                  <div class="gallery">
+                                                                    <a target="_blank" href="img1.jpg">
+                                                                      <img src="img1.jpg" alt="Trolltunga Norway" width="200" height="100">
+                                                                       </a>
+                                                                       <div class="desc">Mountain1<br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>      
+                                                 <div class="gallery">
+                                                                    <a target="_blank" href="img3.jpg">
+                                                                      <img src="img3.jpg" alt="Trolltunga Norway" width="300" height="600">
+                                                                       </a>
+                                                                       <div class="desc">Mountain2<br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>      
+                                                   <div class="gallery">
+                                                                    <a target="_blank" href="img4.jpg">
+                                                                      <img src="img4.jpg" alt="Trolltunga Norway" width="300" height="600">
+                                                                       </a>
+                                                                       <div class="desc">Lake <br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>      
+                                                  <div class="gallery">
+                                                                    <a target="_blank" href="img2.jpg">
+                                                                      <img src="img2.jpg" alt="Trolltunga Norway" width="300" height="600">
+                                                                       </a>
+                                                                       <div class="desc">fire<br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>      
+                                                    <div class="gallery">
+                                                                    <a target="_blank" href="img5.jpg">
+                                                                      <img src="img5.jpg" alt="Trolltunga Norway" width="300" height="600">
+                                                                       </a>
+                                                                       <div class="desc">Forest Detail<br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>      
+                                                   <div class="gallery">
+                                                                    <a target="_blank" href="img6.jpg">
+                                                                      <img src="img6.jpg" alt="Trolltunga Norway" width="300" height="600">
+                                                                       </a>
+                                                                       <div class="desc">Mountain3<br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>      
+                                                    <div class="gallery">
+                                                                    <a target="_blank" href="img7.jpg">
+                                                                      <img src="img7.jpg" alt="Trolltunga Norway" width="300" height="600">
+                                                                       </a>
+                                                                       <div class="desc">Alone in Forest<br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>                     
+                                                   <div class="gallery">
+                                                                    <a target="_blank" href="img8.jpg">
+                                                                      <img src="img8.jpg" alt="Trolltunga Norway" width="300" height="600">
+                                                                       </a>
+                                                                       <div class="desc">Field<br>Uploader:Deathtostack</div>
+                                                                          
+                                                   </div>      
+                  
+                  
+                  
+           </div>    
+                   
+
+                
+             
+</body>
+</html>
